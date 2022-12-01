@@ -1,0 +1,1654 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Winstrike Helper</title>
+<style>
+div#container
+{
+   width: 1400px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/bg.png');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#NAVLOGOS
+{
+   background-color: #181924;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_logowinstrike
+{
+   vertical-align: top;
+}
+#logowinstrike
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer1
+{
+   background-color: #181924;
+   background-image: none;
+   border: 1px solid #181924;
+   border-radius: 5px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 700;
+   font-size: 27px;
+   line-height: 39px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#пс4_1началоброни
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#пс4_1началоброни:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#пс4_1_конец_брони
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#пс4_1_конец_брони:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_текст_начало_пс 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_текст_начало_пс
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_текст_начало_пс p, #wb_текст_начало_пс ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text3 p, #wb_Text3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text4 p, #wb_Text4 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Layer2
+{
+   background-color: #181924;
+   background-image: none;
+   border: 1px solid #181924;
+   border-radius: 5px;
+}
+#Editbox1
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Editbox2
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox2:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text5 p, #wb_Text5 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text6 p, #wb_Text6 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text7
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text7 p, #wb_Text7 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Layer3
+{
+   background-color: #181924;
+   background-image: none;
+   border: 1px solid #181924;
+   border-radius: 5px;
+}
+#Editbox3
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox3:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Editbox4
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox4:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text8
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text8 p, #wb_Text8 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text9
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text9 p, #wb_Text9 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text10 p, #wb_Text10 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Layer4
+{
+   background-color: #181924;
+   background-image: none;
+   border: 1px solid #181924;
+   border-radius: 5px;
+}
+#Editbox5
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox5:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Editbox6
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox6:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text11 p, #wb_Text11 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text12
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text12 p, #wb_Text12 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text13
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text13 p, #wb_Text13 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text14
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 700;
+   font-size: 27px;
+   line-height: 39px;
+}
+#wb_Text14 p, #wb_Text14 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Layer5
+{
+   background-color: #181924;
+   background-image: none;
+   border: 1px solid #181924;
+   border-radius: 5px;
+}
+#Editbox7
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #DAA520;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox7:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Editbox8
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #DAA520;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox8:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text15
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text15 p, #wb_Text15 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text16 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text16
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text16 p, #wb_Text16 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text17
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text17 p, #wb_Text17 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Layer6
+{
+   background-color: #181924;
+   background-image: none;
+   border: 1px solid #181924;
+   border-radius: 5px;
+}
+#Editbox9
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #DAA520;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox9:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Editbox10
+{
+   border: 2px solid #27283D;
+   border-radius: 5px;
+   background-color: #000000;
+   background-image: none;
+   color: #DAA520;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 27px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox10:focus
+{
+   border-color: #00BFFF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,191,255,0.60);
+   outline: 0;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text18
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text18 p, #wb_Text18 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text19
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text19 p, #wb_Text19 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text20 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text20
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text20 p, #wb_Text20 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Button1
+{
+   border: 1px solid #27283D;
+   border-radius: 2px;
+   background-color: #27283D;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 16px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+}
+#Button1:focus
+{
+   outline: 0;
+}
+#wb_Form1
+{
+   background-color: #181924;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+}
+#value1
+{
+   border: 1px solid #27283D;
+   border-radius: 4px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   text-align: left;
+   box-sizing: border-box;
+   width: 100%;
+   padding: 12px 4px 12px 4px;
+}
+#value1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_value1
+{
+   margin: 0;
+}
+#value1::placeholder
+{
+   color: #DAA520;
+   opacity: 1;
+}
+#value1::-ms-input-placeholder
+{
+   color: #DAA520;
+}
+#value1-label
+{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   height: 100%;
+   pointer-events: none;
+   box-sizing: border-box;
+   border: 1px solid transparent;
+   color: #DAA520;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-size: 13px;
+   margin-left: 4px;
+   transform-origin: 0 0;
+   transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+#value1::-moz-placeholder
+{
+   color: transparent;
+}
+#value1::placeholder
+{
+   color: transparent;
+}
+#value1:not(:-moz-placeholder-shown)
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value1:focus, #value1:not(:placeholder-shown)
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value1:-webkit-autofill
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value1:not(:-moz-placeholder-shown)~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value1:focus~label, #value1:not(:placeholder-shown)~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value1:-webkit-autofill~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value2
+{
+   border: 1px solid #27283D;
+   border-radius: 4px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   text-align: left;
+   box-sizing: border-box;
+   width: 100%;
+   padding: 12px 4px 12px 4px;
+}
+#value2:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_value2
+{
+   margin: 0;
+}
+#value2::placeholder
+{
+   color: #DAA520;
+   opacity: 1;
+}
+#value2::-ms-input-placeholder
+{
+   color: #DAA520;
+}
+#value2-label
+{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   height: 100%;
+   pointer-events: none;
+   box-sizing: border-box;
+   border: 1px solid transparent;
+   color: #DAA520;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-size: 13px;
+   margin-left: 4px;
+   transform-origin: 0 0;
+   transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+#value2::-moz-placeholder
+{
+   color: transparent;
+}
+#value2::placeholder
+{
+   color: transparent;
+}
+#value2:not(:-moz-placeholder-shown)
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value2:focus, #value2:not(:placeholder-shown)
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value2:-webkit-autofill
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value2:not(:-moz-placeholder-shown)~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value2:focus~label, #value2:not(:placeholder-shown)~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value2:-webkit-autofill~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#total1
+{
+   border: 1px solid #27283D;
+   border-radius: 4px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 31px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#total1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#total1::placeholder
+{
+   color: #DAA520;
+   opacity: 1;
+}
+#total1::-ms-input-placeholder
+{
+   color: #DAA520;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Select1
+{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 21px 4px 7px 4px;
+   box-sizing: border-box;
+   width: 100%;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+   background-repeat: no-repeat;
+   background-position: right .75rem center;
+   background-size: 16px 12px;
+   -moz-padding-start: 1px;
+}
+#Select1-label
+{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   height: 100%;
+   pointer-events: none;
+   box-sizing: border-box;
+   border: 1px solid transparent;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin-left: 4px;
+   transform-origin: 0 0;
+   transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+#Select1~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#wb_Select1
+{
+   margin: 0;
+}
+#Select1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text21 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text21
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text21 p, #wb_Text21 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Form2
+{
+   background-color: #181924;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+}
+#value3
+{
+   border: 1px solid #27283D;
+   border-radius: 4px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   text-align: left;
+   box-sizing: border-box;
+   width: 100%;
+   padding: 12px 4px 12px 4px;
+}
+#value3:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_value3
+{
+   margin: 0;
+}
+#value3::placeholder
+{
+   color: #DAA520;
+   opacity: 1;
+}
+#value3::-ms-input-placeholder
+{
+   color: #DAA520;
+}
+#value3-label
+{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   height: 100%;
+   pointer-events: none;
+   box-sizing: border-box;
+   border: 1px solid transparent;
+   color: #DAA520;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-size: 13px;
+   margin-left: 4px;
+   transform-origin: 0 0;
+   transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+#value3::-moz-placeholder
+{
+   color: transparent;
+}
+#value3::placeholder
+{
+   color: transparent;
+}
+#value3:not(:-moz-placeholder-shown)
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value3:focus, #value3:not(:placeholder-shown)
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value3:-webkit-autofill
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value3:not(:-moz-placeholder-shown)~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value3:focus~label, #value3:not(:placeholder-shown)~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value3:-webkit-autofill~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value4
+{
+   border: 1px solid #27283D;
+   border-radius: 4px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   text-align: left;
+   box-sizing: border-box;
+   width: 100%;
+   padding: 12px 4px 12px 4px;
+}
+#value4:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_value4
+{
+   margin: 0;
+}
+#value4::placeholder
+{
+   color: #DAA520;
+   opacity: 1;
+}
+#value4::-ms-input-placeholder
+{
+   color: #DAA520;
+}
+#value4-label
+{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   height: 100%;
+   pointer-events: none;
+   box-sizing: border-box;
+   border: 1px solid transparent;
+   color: #DAA520;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-size: 13px;
+   margin-left: 4px;
+   transform-origin: 0 0;
+   transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+#value4::-moz-placeholder
+{
+   color: transparent;
+}
+#value4::placeholder
+{
+   color: transparent;
+}
+#value4:not(:-moz-placeholder-shown)
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value4:focus, #value4:not(:placeholder-shown)
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value4:-webkit-autofill
+{
+   padding-top: 19px;
+   padding-bottom: 6px;
+}
+#value4:not(:-moz-placeholder-shown)~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value4:focus~label, #value4:not(:placeholder-shown)~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#value4:-webkit-autofill~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#total2
+{
+   border: 1px solid #27283D;
+   border-radius: 4px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 31px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#total2:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#total2::placeholder
+{
+   color: #DAA520;
+   opacity: 1;
+}
+#total2::-ms-input-placeholder
+{
+   color: #DAA520;
+}
+#wb_Text22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text22
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text22 p, #wb_Text22 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Select2
+{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 21px 4px 7px 4px;
+   box-sizing: border-box;
+   width: 100%;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+   background-repeat: no-repeat;
+   background-position: right .75rem center;
+   background-size: 16px 12px;
+   -moz-padding-start: 1px;
+}
+#Select2-label
+{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   height: 100%;
+   pointer-events: none;
+   box-sizing: border-box;
+   border: 1px solid transparent;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin-left: 4px;
+   transform-origin: 0 0;
+   transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+#Select2~label
+{
+   opacity: .65;
+   transform: scale(.85) translateY(calc(-50% - 0.8em));
+}
+#wb_Select2
+{
+   margin: 0;
+}
+#Select2:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text23 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text23
+{
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 39px;
+}
+#wb_Text23 p, #wb_Text23 ul
+{
+   margin: 0;
+   padding: 0;
+}
+</style>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#Select1, #value1, #value2").change(function()
+   {
+      $('#total1').val(Number($('#value1').val())-Number($('#value2').val()));
+   });
+   $("#Select1").trigger('change');
+   $("#Select2, #value3, #value4").change(function()
+   {
+      $('#total2').val(Number($('#value3').val())-Number($('#value4').val()));
+   });
+   $("#Select2").trigger('change');
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="Layer1" style="position:absolute;text-align:left;left:0px;top:177px;width:400px;height:142px;z-index:54;">
+<div id="Html2" style="position:absolute;left:188px;top:51px;width:25px;height:51px;z-index:2">
+</div>
+<input type="time" id="пс4_1началоброни" style="position:absolute;left:12px;top:57px;width:164px;height:27px;z-index:3;" name="PS4-1" value="" spellcheck="false" placeholder="Начало брони">
+<input type="time" id="пс4_1_конец_брони" style="position:absolute;left:213px;top:57px;width:164px;height:27px;z-index:4;" name="PS4-1" value="" spellcheck="false" placeholder="Конец брони">
+<div id="wb_текст_начало_пс" style="position:absolute;left:12px;top:11px;width:176px;height:40px;text-align:center;z-index:5;">
+<p>Начало</p></div>
+<div id="wb_Text3" style="position:absolute;left:213px;top:11px;width:176px;height:40px;text-align:center;z-index:6;">
+<p>Конец</p></div>
+<div id="wb_Text4" style="position:absolute;left:112px;top:102px;width:176px;height:40px;text-align:center;z-index:7;">
+<p>1</p></div>
+</div>
+<div id="wb_Text1" style="position:absolute;left:317px;top:129px;width:194px;height:40px;text-align:center;z-index:55;">
+<p>PlayStation 4</p></div>
+<div id="Html1" style="position:absolute;left:402px;top:224px;width:25px;height:51px;z-index:56">
+</div>
+<div id="Layer2" style="position:absolute;text-align:left;left:427px;top:177px;width:400px;height:142px;z-index:57;">
+<div id="Html3" style="position:absolute;left:188px;top:51px;width:25px;height:51px;z-index:8">
+</div>
+<input type="time" id="Editbox1" style="position:absolute;left:12px;top:57px;width:164px;height:27px;z-index:9;" name="PS4-1" value="" spellcheck="false" placeholder="Начало брони">
+<input type="time" id="Editbox2" style="position:absolute;left:213px;top:57px;width:164px;height:27px;z-index:10;" name="PS4-1" value="" spellcheck="false" placeholder="Конец брони">
+<div id="wb_Text5" style="position:absolute;left:12px;top:11px;width:176px;height:40px;text-align:center;z-index:11;">
+<p>Начало</p></div>
+<div id="wb_Text6" style="position:absolute;left:213px;top:11px;width:176px;height:40px;text-align:center;z-index:12;">
+<p>Конец</p></div>
+<div id="wb_Text7" style="position:absolute;left:112px;top:102px;width:176px;height:40px;text-align:center;z-index:13;">
+<p>2</p></div>
+</div>
+<div id="Layer3" style="position:absolute;text-align:left;left:427px;top:344px;width:400px;height:142px;z-index:58;">
+<div id="Html4" style="position:absolute;left:188px;top:51px;width:25px;height:51px;z-index:14">
+</div>
+<input type="time" id="Editbox3" style="position:absolute;left:12px;top:57px;width:164px;height:27px;z-index:15;" name="PS4-1" value="" spellcheck="false" placeholder="Начало брони">
+<input type="time" id="Editbox4" style="position:absolute;left:213px;top:57px;width:164px;height:27px;z-index:16;" name="PS4-1" value="" spellcheck="false" placeholder="Конец брони">
+<div id="wb_Text8" style="position:absolute;left:12px;top:11px;width:176px;height:40px;text-align:center;z-index:17;">
+<p>Начало</p></div>
+<div id="wb_Text9" style="position:absolute;left:213px;top:11px;width:176px;height:40px;text-align:center;z-index:18;">
+<p>Конец</p></div>
+<div id="wb_Text10" style="position:absolute;left:112px;top:102px;width:176px;height:40px;text-align:center;z-index:19;">
+<p>4</p></div>
+</div>
+<div id="Layer4" style="position:absolute;text-align:left;left:0px;top:344px;width:400px;height:142px;z-index:59;">
+<div id="Html5" style="position:absolute;left:188px;top:51px;width:25px;height:51px;z-index:20">
+</div>
+<input type="time" id="Editbox5" style="position:absolute;left:12px;top:57px;width:164px;height:27px;z-index:21;" name="PS4-1" value="" spellcheck="false" placeholder="Начало брони">
+<input type="time" id="Editbox6" style="position:absolute;left:213px;top:57px;width:164px;height:27px;z-index:22;" name="PS4-1" value="" spellcheck="false" placeholder="Конец брони">
+<div id="wb_Text11" style="position:absolute;left:12px;top:11px;width:176px;height:40px;text-align:center;z-index:23;">
+<p>Начало</p></div>
+<div id="wb_Text12" style="position:absolute;left:213px;top:11px;width:176px;height:40px;text-align:center;z-index:24;">
+<p>Конец</p></div>
+<div id="wb_Text13" style="position:absolute;left:112px;top:102px;width:176px;height:40px;text-align:center;z-index:25;">
+<p>4</p></div>
+</div>
+<div id="wb_Text14" style="position:absolute;left:1037px;top:129px;width:194px;height:40px;text-align:center;z-index:60;">
+<p>PlayStation 5</p></div>
+<div id="Layer5" style="position:absolute;text-align:left;left:933px;top:177px;width:400px;height:142px;z-index:61;">
+<div id="Html6" style="position:absolute;left:188px;top:51px;width:25px;height:51px;z-index:26">
+</div>
+<input type="time" id="Editbox7" style="position:absolute;left:12px;top:57px;width:164px;height:27px;z-index:27;" name="PS4-1" value="" spellcheck="false" placeholder="Начало брони">
+<input type="time" id="Editbox8" style="position:absolute;left:213px;top:57px;width:164px;height:27px;z-index:28;" name="PS4-1" value="" spellcheck="false" placeholder="Конец брони">
+<div id="wb_Text15" style="position:absolute;left:12px;top:11px;width:176px;height:40px;text-align:center;z-index:29;">
+<p>Начало</p></div>
+<div id="wb_Text16" style="position:absolute;left:213px;top:11px;width:176px;height:40px;text-align:center;z-index:30;">
+<p>Конец</p></div>
+<div id="wb_Text17" style="position:absolute;left:112px;top:102px;width:176px;height:40px;text-align:center;z-index:31;">
+<p>1</p></div>
+</div>
+<div id="Layer6" style="position:absolute;text-align:left;left:933px;top:344px;width:400px;height:142px;z-index:62;">
+<div id="Html7" style="position:absolute;left:188px;top:51px;width:25px;height:51px;z-index:32">
+</div>
+<input type="time" id="Editbox9" style="position:absolute;left:12px;top:57px;width:164px;height:27px;z-index:33;" name="PS4-1" value="" spellcheck="false" placeholder="Начало брони">
+<input type="time" id="Editbox10" style="position:absolute;left:213px;top:57px;width:164px;height:27px;z-index:34;" name="PS4-1" value="" spellcheck="false" placeholder="Конец брони">
+<div id="wb_Text18" style="position:absolute;left:12px;top:11px;width:176px;height:40px;text-align:center;z-index:35;">
+<p>Начало</p></div>
+<div id="wb_Text19" style="position:absolute;left:213px;top:11px;width:176px;height:40px;text-align:center;z-index:36;">
+<p>Конец</p></div>
+<div id="wb_Text20" style="position:absolute;left:112px;top:102px;width:176px;height:40px;text-align:center;z-index:37;">
+<p>3</p></div>
+</div>
+<div id="wb_Form1" style="position:absolute;left:0px;top:506px;width:402px;height:384px;z-index:63;">
+<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" accept-charset="UTF-8" id="Form1">
+<div id="wb_value1" style="position:absolute;left:13px;top:62px;width:377px;height:41px;z-index:38;">
+<input type="number" id="value1" style="" name="value14" value="" maxlength="12" spellcheck="false" placeholder="В кассе сейчас">
+<label id="value1-label" for="value1">В кассе сейчас</label></div>
+<div id="Html8" style="position:absolute;left:189px;top:103px;width:25px;height:38px;z-index:39">
+</div>
+<div id="wb_value2" style="position:absolute;left:13px;top:141px;width:377px;height:41px;z-index:40;">
+<input type="number" id="value2" style="" name="value24" value="" maxlength="12" spellcheck="false" placeholder="В кассе было">
+<label id="value2-label" for="value2">В кассе было</label></div>
+<div id="Html9" style="position:absolute;left:189px;top:182px;width:25px;height:38px;z-index:41">
+</div>
+<input type="number" id="total1" style="position:absolute;left:13px;top:260px;width:367px;height:31px;z-index:42;" name="total" value="" maxlength="12" disabled spellcheck="false" placeholder="Выручка наличные">
+<div id="wb_Text2" style="position:absolute;left:113px;top:22px;width:176px;height:40px;text-align:center;z-index:43;">
+<p>Наличка</p></div>
+<div id="wb_Select1" style="position:absolute;left:13px;top:312px;width:377px;height:42px;z-index:44;">
+<select name="Select1" size="1" id="Select1" style="" title="Действие">
+<option value="1">Формула 1 + 2 + 3 /X</option>
+<option value="1">Формула 1</option>
+</select>
+<label id="Select1-label" for="Select1">Действие</label></div>
+<div id="wb_Text21" style="position:absolute;left:57px;top:220px;width:289px;height:40px;text-align:center;z-index:45;">
+<p>Выручка наличные смена</p></div>
+</form>
+</div>
+<div id="wb_Form2" style="position:absolute;left:427px;top:506px;width:402px;height:384px;z-index:64;">
+<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" accept-charset="UTF-8" id="Form2">
+<div id="wb_value3" style="position:absolute;left:13px;top:62px;width:377px;height:41px;z-index:46;">
+<input type="number" id="value3" style="" name="value14" value="" maxlength="12" spellcheck="false" placeholder="Сейчас">
+<label id="value3-label" for="value3">Сейчас</label></div>
+<div id="Html10" style="position:absolute;left:189px;top:103px;width:25px;height:38px;z-index:47">
+</div>
+<div id="wb_value4" style="position:absolute;left:13px;top:141px;width:377px;height:41px;z-index:48;">
+<input type="number" id="value4" style="" name="value24" value="" maxlength="12" spellcheck="false" placeholder="Было">
+<label id="value4-label" for="value4">Было</label></div>
+<div id="Html11" style="position:absolute;left:189px;top:182px;width:25px;height:38px;z-index:49">
+</div>
+<input type="number" id="total2" style="position:absolute;left:13px;top:260px;width:367px;height:31px;z-index:50;" name="total" value="" maxlength="12" disabled spellcheck="false" placeholder="Выручка наличные">
+<div id="wb_Text22" style="position:absolute;left:113px;top:22px;width:176px;height:40px;text-align:center;z-index:51;">
+<p>Безнал</p></div>
+<div id="wb_Select2" style="position:absolute;left:13px;top:312px;width:377px;height:42px;z-index:52;">
+<select name="Select1" size="1" id="Select2" style="" title="Действие">
+<option value="1">Формуля 1/2*</option>
+<option value="1">Формула 1</option>
+</select>
+<label id="Select2-label" for="Select2">Действие</label></div>
+<div id="wb_Text23" style="position:absolute;left:57px;top:220px;width:289px;height:40px;text-align:center;z-index:53;">
+<p>Выручка безнал</p></div>
+</form>
+</div>
+</div>
+<div id="NAVLOGOS" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:103px;z-index:65;">
+<div id="NAVLOGOS_Container" style="width:1400px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_logowinstrike" style="position:absolute;left:558px;top:15px;width:285px;height:72px;z-index:0;">
+<img src="Logowin.svg" id="logowinstrike" alt="" width="285" height="73"></div>
+<input type="submit" id="Button1" name="" value="Плойки" style="position:absolute;left:13px;top:25px;width:170px;height:53px;z-index:1;">
+</div>
+</div>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&subset=cyrillic&display=swap" rel="stylesheet">
+</body>
+</html>
